@@ -17,8 +17,8 @@ public List<Bank> bank(List<Bank> a) {
 	return br.saveAll(a);
 }
 
-public String ls(int a) {
-	return br.ls(a);
+public String lss(int a) {
+	return br.lss(a);
 }
   
 }

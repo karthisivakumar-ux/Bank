@@ -16,8 +16,8 @@ public class BankService {
 public List<Bank> bank(List<Bank> a) {
 	return bd.bank(a);
 }
-public String ls(int a) {
-	return bd.ls(a);
+public String lss(int a) {
+	return bd.lss(a);
 }
   
 }

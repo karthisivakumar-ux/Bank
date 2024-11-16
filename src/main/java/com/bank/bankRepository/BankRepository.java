@@ -9,6 +9,6 @@ public interface BankRepository extends JpaRepository<Bank,Integer> {
 	
 	
 	@Query(value="SELECT bank_name from banktable where hsn_code like ? ",nativeQuery = true)
-	public String ls(int a);
+	public String lss(int a);
 
 }

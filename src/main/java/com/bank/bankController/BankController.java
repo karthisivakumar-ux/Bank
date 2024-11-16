@@ -24,7 +24,7 @@ public class BankController {
 	 return bs.bank(a);
  }
  @GetMapping(value="/ls/{e}")
-	public String ls(@PathVariable int e) {
-		return bs.ls(e);
+	public String lss(@PathVariable int e) {
+		return bs.lss(e);
 	}
 }
